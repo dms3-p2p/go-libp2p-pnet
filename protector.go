@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	ipnet "github.com/libp2p/go-libp2p-interface-pnet"
+	ipnet "github.com/dms3-p2p/go-p2p-interface-pnet"
 )
 
 var _ ipnet.Protector = (*protector)(nil)

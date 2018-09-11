@@ -7,8 +7,8 @@ import (
 	"net"
 
 	salsa20 "github.com/davidlazar/go-crypto/salsa20"
-	ipnet "github.com/libp2p/go-libp2p-interface-pnet"
-	mpool "github.com/libp2p/go-msgio/mpool"
+	ipnet "github.com/dms3-p2p/go-p2p-interface-pnet"
+	mpool "github.com/dms3-p2p/go-msgio/mpool"
 )
 
 // we are using buffer pool as user needs their slice back
